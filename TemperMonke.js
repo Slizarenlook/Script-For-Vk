@@ -22,8 +22,10 @@
       item.innerHTML = "Магазин";
     }
   });
- document.querySelectorAll("title").forEach(item => {
+setInterval(function() {
+      document.querySelectorAll("title").forEach(item => {
     if (item.innerHTML === "Мессенджер") {
-      item.innerHTML = "Сообщения";
+    item.innerHTML = "Сообщения";
     }
   });
+}, 100);
