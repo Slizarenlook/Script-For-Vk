@@ -28,4 +28,4 @@ setInterval(function() {
     item.innerHTML = "Сообщения";
     }
   });
-}, 100);
+}, 50);
